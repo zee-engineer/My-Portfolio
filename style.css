@@ -277,7 +277,7 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 .hero-stat:hover { border-color: var(--border-gold); }
 .stat-val {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 36px; font-weight: 700;
+  font-size: 44px; font-weight: 700;
   color: var(--gold); line-height: 1;
 }
 .stat-lbl { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 5px; }
@@ -288,8 +288,8 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 .photo-frame {
   position: relative;
   width: 100%;
-  max-width: 380px;
-  height: 480px;
+  max-width: 450px;
+  height: 560px;
   margin: 0 auto;
 }
 .photo-frame::before {
@@ -331,12 +331,12 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
   z-index: 5;
   background: var(--card);
   border: 1px solid var(--border-gold);
-  padding: 14px 18px;
-  min-width: 160px;
+  padding: 16px 22px;
+  min-width: 180px;
 }
 .photo-badge-val {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 26px; font-weight: 700; color: var(--gold); line-height: 1;
+  font-size: 32px; font-weight: 700; color: var(--gold); line-height: 1;
 }
 .photo-badge-lbl { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 4px; }
 
