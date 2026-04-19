@@ -182,11 +182,11 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
   padding-top: var(--nav-h);
 }
 
-.hero-left { padding: 60px 0; }
+.hero-left { padding: 40px 0; }
 
 .hero-eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
@@ -199,11 +199,11 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 
 .hero-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(58px, 9vw, 110px);
+  font-size: clamp(42px, 6vw, 72px);
   font-weight: 700;
-  line-height: 0.9;
+  line-height: 0.95;
   letter-spacing: -0.01em;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .hero-name .line1 { display: block; color: var(--text); }
 .hero-name .line2 { display: block; color: var(--gold); font-style: italic; }
@@ -278,7 +278,7 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 .hero-stat:hover { border-color: var(--border-gold); }
 .stat-val {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 44px; font-weight: 700;
+  font-size: 36px; font-weight: 700;
   color: var(--gold); line-height: 1;
 }
 .stat-lbl { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 5px; }
@@ -289,8 +289,8 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 .photo-frame {
   position: relative;
   width: 100%;
-  max-width: 450px;
-  height: 560px;
+  max-width: 340px;
+  height: 430px;
   margin: 0 auto;
 }
 .photo-frame::before {
@@ -337,7 +337,7 @@ nav .container { display: flex; justify-content: flex-start; align-items: center
 }
 .photo-badge-val {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 32px; font-weight: 700; color: var(--gold); line-height: 1;
+  font-size: 28px; font-weight: 700; color: var(--gold); line-height: 1;
 }
 .photo-badge-lbl { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 4px; }
 
