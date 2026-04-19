@@ -180,9 +180,9 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 #hero {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
   padding-top: var(--nav-h);
 }
 
@@ -288,8 +288,10 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 
 .photo-frame {
   position: relative;
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   height: 480px;
+  margin: 0 auto;
 }
 .photo-frame::before {
   content: '';
