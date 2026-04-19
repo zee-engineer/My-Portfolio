@@ -119,7 +119,7 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 }
 .nav-logo span { color: var(--purple-lt); }
 
-.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links { display: flex; gap: 36px; list-style: none; margin-left: 40px; }
 .nav-links a {
   color: var(--text-muted);
   text-decoration: none;
