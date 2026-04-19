@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Profile placeholder for Zime Mayeza">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#130d22" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="520" height="620" rx="36" fill="url(#grad)" />
+  <circle cx="260" cy="230" r="120" fill="#1f1333" filter="url(#glow)" />
+  <circle cx="260" cy="230" r="88" fill="#0a0612" />
+  <path d="M195 340c10-26 28-46 52-56 24-10 54-10 78 0 24 10 42 30 52 56" fill="none" stroke="#f0e8ff" stroke-width="20" stroke-linecap="round" />
+  <text x="260" y="540" font-family="Cormorant Garamond, serif" font-size="46" fill="#f0e8ff" text-anchor="middle">ZIME</text>
+  <text x="260" y="590" font-family="DM Mono, monospace" font-size="22" fill="#c084fc" text-anchor="middle">Portfolio</text>
+</svg>

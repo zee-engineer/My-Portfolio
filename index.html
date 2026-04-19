@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zime Mayeza — Data Administrator & Aspiring Data Analyst. KwaZulu-Natal & Johannesburg, South Africa.">
+  <title>Zime Mayeza | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Mono:wght@300;400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+
+  <!-- Data analytics canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ── NAVIGATION ── -->
+  <nav>
+    <div class="container">
+      <a href="#hero" class="nav-logo">ZM<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <nav class="nav-drawer">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr auto; align-items:center; gap:60px; position:relative;">
+
+        <!-- Left: text -->
+        <div class="hero-left" id="about">
+          <div class="hero-eyebrow">
+            <span class="hero-eyebrow-dot"></span>
+            Open to new opportunities
+          </div>
+
+          <h1 class="hero-name">
+            <span class="line1">ZIME</span>
+            <span class="line2">MAYEZA</span>
+          </h1>
+
+          <div class="hero-title" data-text="Data Administrator → Data Analyst">Data Administrator → Data Analyst</div>
+
+          <div class="location-pill">
+            <span class="location-live"></span>
+            <a href="https://github.com/zee-engineer/My-Portfolio.git" target="_blank" rel="noopener noreferrer" style="color:inherit; text-decoration:none;">github.com/zee-engineer/My-Portfolio</a>
+          </div>
+
+          <p class="hero-bio">
+            Detail-oriented data professional with 4+ years delivering 99%+ accuracy across high-volume operational environments. Passionate about transforming raw data into insights that drive decisions — transitioning into analytics with a foundation built on real-world governance, reporting, and quality control.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#experience" class="btn btn-gold">View Experience</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+            <a href="https://instagram.com/igame" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Instagram @igame</a>
+            <a href="Zime Mayeza_CV_2026.docx.pdf" download class="btn btn-ghost">Download CV</a>
+          </div>
+
+          <!-- Stats row -->
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="stat-val" data-target="4" data-suffix="+">4+</div>
+              <div class="stat-lbl">Years Exp</div>
+            </div>
+            <div class="hero-stat">
+              <div class="stat-val" data-target="99" data-suffix="%">99%</div>
+              <div class="stat-lbl">Accuracy</div>
+            </div>
+            <div class="hero-stat">
+              <div class="stat-val" data-target="500" data-suffix="+">500+</div>
+              <div class="stat-lbl">Records/Day</div>
+            </div>
+            <div class="hero-stat">
+              <div class="stat-val" data-target="0" data-suffix="">0</div>
+              <div class="stat-lbl">Audit Fails</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: photo -->
+        <div class="hero-right">
+          <div class="photo-frame">
+            <img src="Zime.jpg" alt="Zime Mayeza — Data Analyst" loading="eager">
+            <div class="photo-overlay"></div>
+            <div class="photo-badge">
+              <div class="photo-badge-val">4+</div>
+              <div class="photo-badge-lbl">Years in Data</div>
+            </div>
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-br"></div>
+          </div>
+        </div>
+
+      </div><!-- end grid -->
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-tag reveal">Capabilities</div>
+      <h2 class="section-title reveal">What I <em>Bring</em></h2>
+
+      <div class="skills-grid">
+        <div class="skill-block reveal reveal-delay-1">
+          <div class="skill-cat">Core Technical</div>
+          <div class="skill-tags">
+            <span class="tag">Microsoft Excel</span>
+            <span class="tag">Pivot Tables</span>
+            <span class="tag">VLOOKUP / XLOOKUP</span>
+            <span class="tag">Data Validation</span>
+            <span class="tag">Conditional Formatting</span>
+            <span class="tag">KPI Reporting</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal reveal-delay-2">
+          <div class="skill-cat">Data Operations</div>
+          <div class="skill-tags">
+            <span class="tag">Data Cleaning</span>
+            <span class="tag">Data Governance</span>
+            <span class="tag">Quality Control</span>
+            <span class="tag">Document Control</span>
+            <span class="tag">Audit Preparation</span>
+            <span class="tag">Record Management</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal reveal-delay-3">
+          <div class="skill-cat">Learning / In Progress</div>
+          <div class="skill-tags">
+            <span class="tag learning">SQL</span>
+            <span class="tag learning">Power BI</span>
+            <span class="tag learning">DAX Fundamentals</span>
+            <span class="tag learning">Data Modelling</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal reveal-delay-4">
+          <div class="skill-cat">Soft Skills &amp; Languages</div>
+          <div class="skill-tags">
+            <span class="tag">Stakeholder Communication</span>
+            <span class="tag">Attention to Detail</span>
+            <span class="tag">Compliance</span>
+            <span class="tag">Cross-dept Coordination</span>
+            <span class="tag">English — Fluent</span>
+            <span class="tag">IsiZulu — Fluent</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-tag reveal">Work History</div>
+      <h2 class="section-title reveal"><em>Experience</em> Timeline</h2>
+
+      <div class="exp-timeline">
+
+        <!-- Role 1 -->
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <div class="exp-company">Makhathini Medical Waste</div>
+              <div class="exp-role">Administrative Data Capturer &amp; Reporting Support</div>
+              <div class="exp-location">Pietermaritzburg, South Africa</div>
+            </div>
+            <div class="exp-period">Feb 2023 – Dec 2025</div>
+          </div>
+          <div class="exp-toggle">+ Expand details</div>
+          <div class="exp-body">
+            <ul class="exp-points">
+              <li>Captured and maintained 500+ operational records daily at 99%+ accuracy, ensuring reliable datasets for reporting and decision-making.</li>
+              <li>Generated weekly and monthly reports used for operational performance tracking and management oversight.</li>
+              <li>Managed document control systems, achieving 100% audit readiness and reducing document retrieval time by 50%.</li>
+              <li>Verified and updated sensitive compliance data, reducing inconsistencies and improving overall data quality.</li>
+              <li>Coordinated cross-departmental workflows, improving process efficiency and reducing turnaround times.</li>
+              <li>Built a dynamic Excel dashboard using Pivot Tables, conditional formatting, and XLOOKUP — cutting manual report compilation time by 20%.</li>
+            </ul>
+            <div class="exp-wins">
+              <span class="win-badge">✓ Zero Audit Non-conformities</span>
+              <span class="win-badge">✓ 20% Reporting Efficiency Gain</span>
+              <span class="win-badge">✓ 50% Faster Document Retrieval</span>
+              <span class="win-badge">✓ Consistently High Data Accuracy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <div class="exp-company">Buhle Waste (Pty) Ltd</div>
+              <div class="exp-role">Administrative Data Capturer &amp; Reporting Support</div>
+              <div class="exp-location">Fixed-Term Contract</div>
+            </div>
+            <div class="exp-period">Nov 2020 – Jan 2023</div>
+          </div>
+          <div class="exp-toggle">+ Expand details</div>
+          <div class="exp-body">
+            <ul class="exp-points">
+              <li>Captured and verified high-volume operational data at 99% accuracy, supporting daily business operations.</li>
+              <li>Produced routine management reports for performance monitoring and strategic decision-making.</li>
+              <li>Maintained structured filing systems, improving document retrieval efficiency by 25%.</li>
+              <li>Performed stock tracking and reconciliation, improving inventory accuracy and reducing discrepancies.</li>
+              <li>Responded to customer and internal queries, improving response times by approximately 20%.</li>
+            </ul>
+            <div class="exp-wins">
+              <span class="win-badge">✓ 25% Faster Document Retrieval</span>
+              <span class="win-badge">✓ 20% Faster Response Times</span>
+              <span class="win-badge">✓ Improved Inventory Accuracy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <div class="exp-company">Edendale Hospital</div>
+              <div class="exp-role">Reception &amp; Patient Administration Support</div>
+              <div class="exp-location">Volunteer</div>
+            </div>
+            <div class="exp-period">2020</div>
+          </div>
+          <div class="exp-toggle">+ Expand details</div>
+          <div class="exp-body">
+            <ul class="exp-points">
+              <li>Captured and updated patient records with strong focus on accuracy and confidentiality.</li>
+              <li>Assisted with patient registration and front desk coordination in a high-pressure healthcare environment.</li>
+              <li>Maintained strict compliance with healthcare data privacy standards (POPIA aligned).</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-tag reveal">Portfolio</div>
+      <h2 class="section-title reveal">Key <em>Projects</em></h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal reveal-delay-1">
+          <div class="proj-num">01</div>
+          <div class="proj-icon">📊</div>
+          <div class="proj-name">Excel Operational Dashboard</div>
+          <p class="proj-desc">Built a dynamic Excel dashboard to track daily waste collection volumes and KPIs at Makhathini Medical Waste. Used Pivot Tables, conditional formatting, and XLOOKUP — reducing manual report compilation time by 20%.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Excel</span>
+            <span class="proj-tag">Pivot Tables</span>
+            <span class="proj-tag">XLOOKUP</span>
+            <span class="proj-tag">KPI Tracking</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2">
+          <div class="proj-num">02</div>
+          <div class="proj-icon">📈</div>
+          <div class="proj-name">Power BI Dashboard</div>
+          <p class="proj-desc">Built a Power BI report visualising operational data trends as part of an ongoing analytics learning journey. Currently developing advanced skills in data modelling and DAX fundamentals.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Power BI</span>
+            <span class="proj-tag">DAX</span>
+            <span class="proj-tag">Data Modelling</span>
+            <span class="proj-tag">Visualisation</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-3">
+          <div class="proj-num">03</div>
+          <div class="proj-icon">🔍</div>
+          <div class="proj-name">Data Quality &amp; Validation Initiative</div>
+          <p class="proj-desc">Identified and corrected inconsistencies across operational datasets. Introduced data validation checks that improved reporting accuracy and strengthened data reliability processes across departments.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Data Quality</span>
+            <span class="proj-tag">Validation</span>
+            <span class="proj-tag">Governance</span>
+            <span class="proj-tag">Process Improvement</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education">
+    <div class="container">
+      <div class="section-tag reveal">Academic</div>
+      <h2 class="section-title reveal">Education &amp; <em>Certifications</em></h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal reveal-delay-1">
+          <div class="edu-year">2025+</div>
+          <div class="edu-degree">BA Linguistics &amp; Private Law</div>
+          <div class="edu-school">UNISA</div>
+          <div class="edu-pill">In Progress</div>
+        </div>
+        <div class="edu-card reveal reveal-delay-2">
+          <div class="edu-year">2024</div>
+          <div class="edu-degree">Higher Certificate in Law</div>
+          <div class="edu-school">UNISA</div>
+        </div>
+        <div class="edu-card reveal reveal-delay-3">
+          <div class="edu-year">2021</div>
+          <div class="edu-degree">Sage University Computer Certificate</div>
+          <div class="edu-school">Sage University</div>
+        </div>
+        <div class="edu-card reveal reveal-delay-4">
+          <div class="edu-year">2016</div>
+          <div class="edu-degree">National Senior Certificate</div>
+          <div class="edu-school">Nomaswazi High School</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+
+        <div>
+          <div class="section-tag reveal">Let's Connect</div>
+          <div class="contact-headline reveal">Ready to<br><em>work together</em></div>
+          <p class="reveal" style="color:var(--text-muted);font-size:14px;max-width:380px;line-height:1.85;margin-top:16px;">
+            Open to Data Analyst, Data Operations, and Reporting roles across South Africa — available in both KwaZulu-Natal and Johannesburg.
+          </p>
+        </div>
+
+        <div class="contact-items reveal">
+          <a href="tel:+27825118344" class="contact-row">
+            <span class="contact-icon">📞</span>
+            <div>
+              <div class="contact-meta-label">Phone</div>
+              <div class="contact-meta-val">+27 82 511 8344</div>
+            </div>
+          </a>
+          <a href="mailto:zimequeenie@gmail.com" class="contact-row">
+            <span class="contact-icon">✉</span>
+            <div>
+              <div class="contact-meta-label">Email</div>
+              <div class="contact-meta-val">zimequeenie@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://github.com/zee-engineer/My-Portfolio.git" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span class="contact-icon">💻</span>
+            <div>
+              <div class="contact-meta-label">GitHub</div>
+              <div class="contact-meta-val">zee-engineer/My-Portfolio</div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      Built by <span>Zime Mayeza</span> · Data Administrator &amp; Aspiring Data Analyst · South Africa · 2026
+    </div>
+  </footer>
+
+  <script src="canvas.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
