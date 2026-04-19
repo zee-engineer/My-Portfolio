@@ -105,7 +105,7 @@ nav {
   border-bottom: 1px solid var(--border);
   transition: background 0.3s;
 }
-nav .container { display: flex; justify-content: space-between; align-items: center; }
+nav .container { display: flex; justify-content: flex-start; align-items: center; gap: 120px; }
 
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
@@ -114,12 +114,11 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
   color: var(--gold);
   letter-spacing: 0.06em;
   text-decoration: none;
-  margin-right: auto;
   flex-shrink: 0;
 }
 .nav-logo span { color: var(--purple-lt); }
 
-.nav-links { display: flex; gap: 36px; list-style: none; margin-left: 40px; }
+.nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a {
   color: var(--text-muted);
   text-decoration: none;
@@ -180,9 +179,9 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 #hero {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
   padding-top: var(--nav-h);
 }
 
